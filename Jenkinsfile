@@ -29,7 +29,7 @@ pipeline {
                         {
                             sh("""
                                 rm -rf jenkinsec2
-                                git clone "https://github.com/SanjanaKrishna/jenkinsec2.git"
+                                git clone "https://github.com/SanjanaKrishna/terraform-ansible-jenkins.git"
                              """)
                         }
                     }
