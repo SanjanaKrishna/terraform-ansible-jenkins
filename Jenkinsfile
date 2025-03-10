@@ -28,7 +28,7 @@ pipeline {
                         dir("terraform")
                         {
                             sh("""
-                                rm -rf jenkinsec2
+                                rm -rf terraform-ansible-jenkins
                                 git clone "https://github.com/SanjanaKrishna/terraform-ansible-jenkins.git"
                              """)
                         }
